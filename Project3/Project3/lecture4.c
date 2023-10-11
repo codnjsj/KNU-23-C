@@ -28,7 +28,7 @@ int main(void)
         printf("%d%%진행.. 원주율 : %lf ", percent, (circle / count) * 4);
         for (int i = 0; i < percent; i += 5)
         {
-            printf("=");
+            printf("■");
         }
         printf("\n");
 
